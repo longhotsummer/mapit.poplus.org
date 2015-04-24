@@ -118,7 +118,7 @@ required packages:
 * Create the database tables (do add an admin user when prompted, though you
   can add one at any time with `./manage.py createsuperuser`):
 
-        ./manage.py migrate mapit
+        ./manage.py syncdb
 
 * Run the development server
 
